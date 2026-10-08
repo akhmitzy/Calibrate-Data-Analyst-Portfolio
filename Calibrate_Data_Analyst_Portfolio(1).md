@@ -191,7 +191,7 @@ kpi2 = pd.read_sql("""
 print('\nKPI 2: Engagement Quartile Performance')
 print(kpi2.to_string(index=False))
 ```
-
+![2SQL_QUERIES](OUTPUTS/2SQL_QUERIES.png)
 ---
 ## SECTION 3 — Clinical Outcomes: Mixed-Effects Model + Survival Analysis
 **Linear Mixed-Effects Model (LME/REML)** isolates medication, coaching, and engagement
