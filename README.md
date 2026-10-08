@@ -146,7 +146,7 @@ and does not represent actual Calibrate member outcomes.
 ## Author
 
 **[Your Name]**  
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username) · your.email@gmail.com
+[LinkedIn](www.linkedin.com/in/ram-akhmitzyanov-8479a56b) · [GitHub](https://github.com/akhmitzy) · arramzis@gmail.com
 
 ---
 
