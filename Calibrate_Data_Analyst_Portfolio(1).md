@@ -145,7 +145,6 @@ df.head(3)
 Documenting queries and data definitions for transparency and reproducibility.
 Mirrors production SQL used in Mode / Looker.
 
-
 ```python
 # 2. SQL QUERIES VIA SQLITE
 conn = sqlite3.connect(':memory:')
@@ -295,7 +294,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 print(f'Time-series shape: {X_train.shape}  (members, weeks, pillars)')
 print(f'Train churn rate: {y_train.mean():.1%} | Test: {y_test.mean():.1%}')
 ```
-
+![4AGENERATEWEEKLY](OUTPUTS/4AGENERATEWEEKLY.png)
 
 ```python
 # 4B. BIDIRECTIONAL LSTM MODEL
@@ -340,7 +339,11 @@ print(f'\nBiLSTM Churn Model — ROC-AUC: {auc:.3f}')
 print(classification_report(y_test, y_pred, target_names=['Retained','Churned']))
 model.summary()
 ```
+![4BBIDIRECTIONAL](OUTPUTS/4BBIDIRECTIONAL.png)
 
+![4BBIDIRECTIONAL](OUTPUTS/4BBIDIRECTIONAL1.png)
+
+![4BBIDIRECTIONAL](OUTPUTS/4BBIDIRECTIONAL2.png)
 
 ```python
 # 4C. TRAINING CURVES
@@ -355,6 +358,8 @@ fig_hist.update_layout(title='BiLSTM Training History',
                        template='plotly_white', height=360)
 fig_hist.show()
 ```
+
+![4CTRAININGCURVES](4CTRAININGCURVES.png)
 
 ---
 ## SECTION 5 — Data Quality: Isolation Forest Anomaly Detection
@@ -392,6 +397,7 @@ fig_dq = px.scatter(df_dq, x='baseline_bmi', y='weight_loss_pct',
 fig_dq.update_layout(template='plotly_white', height=420)
 fig_dq.show()
 ```
+![5FOREST](5FOREST.png)
 
 ---
 ## SECTION 6 — Executive KPI Dashboard
@@ -463,6 +469,10 @@ fig.update_layout(
     title_font_size=18, template='plotly_white', height=680)
 fig.show()
 ```
+
+![6DASH1](6DASH1.png)
+
+![6DASH2](6DASH2.png)
 
 ---
 ## SECTION 7 — Summary & Key Findings
