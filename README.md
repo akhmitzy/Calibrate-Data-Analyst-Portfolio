@@ -3,6 +3,21 @@
 > **A end-to-end analytics work sample built for Calibrate Health's Junior Data Analyst role.**  
 > Synthetic member cohort · Clinical KPIs · Survival Analysis · Bidirectional LSTM · Anomaly Detection · Executive Dashboard
 
+In plain language:
+
+1. Fake-but-realistic patient data — 5,000 members with age, weight, medications (Semaglutide, Tirzepatide), coaching sessions, and daily app habits across Calibrate's 4 pillars: food, sleep, exercise, mood.
+
+2. SQL queries — exactly what you'd write in Mode or Looker on the job: who loses the most weight? which channel churns least?
+
+3. Statistics — a proper clinical model showing why people lose weight (medication type, coaching, engagement) while controlling for age, BMI, and diabetes. Plus survival curves showing when people drop out.
+
+4. Neural network (BiLSTM) — predicts who will quit the program 4 weeks before they actually do, based on their weekly engagement patterns. Gives coaches time to intervene.
+
+5. Anomaly detection — automatically flags bad/impossible data records before they corrupt the KPI reports.
+
+6. Executive dashboard — one visual scorecard for all teams: Clinical, Coaching, Operations, Finance.
+
+7. Findings & recommendations — concrete action items tied directly to Calibrate's mission and values.
 ---
 
 ## Overview
