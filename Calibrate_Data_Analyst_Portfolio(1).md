@@ -134,6 +134,11 @@ print(f'Churn rate:    {df.churned.mean():.1%}')
 print(f'Mean WL:       {df.weight_loss_pct.mean():.1%}')
 df.head(3)
 ```
+![All libraries loaded](OUTPUTS/data1.png)
+
+![All libraries loaded](OUTPUTS/data2.png)
+
+![All libraries loaded](OUTPUTS/data3.png)
 
 ---
 ## SECTION 2 — SQL KPI Queries (SQLite)
