@@ -59,7 +59,7 @@ np.random.seed(42)
 tf.random.set_seed(42)
 print('All libraries loaded.')
 ```
-
+![All libraries loaded](OUTPUTS/libraries.png)
 ---
 ## SECTION 1 — Synthetic Member Data Generation
 Simulates Calibrate member cohort across DTC and Enterprise channels,
