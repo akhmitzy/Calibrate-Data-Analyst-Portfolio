@@ -489,11 +489,11 @@ fig.show()
 | **Data quality** | 2.1% anomaly rate — Isolation Forest |
 | **Best channel** | Enterprise: 8% lower churn, similar WL outcomes |
 
-### Recommendations
+### My future suggestions 
 1. **Intervene at week 6** — LSTM flags declining engagement 4 weeks before churn; trigger proactive coach outreach
 2. **Prioritize sleep and mood pillars** — lowest log rates, most headroom for lift
 3. **Automate DQ pipeline** — run Isolation Forest weekly before every KPI refresh
 4. **Expand Tirzepatide access** — 15pp higher achievement rate vs Semaglutide
-
+5. **And Much More**
 ---
 *All data is synthetic. For portfolio / demonstration purposes only.*
