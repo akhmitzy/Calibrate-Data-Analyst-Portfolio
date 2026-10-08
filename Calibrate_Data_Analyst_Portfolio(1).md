@@ -359,7 +359,7 @@ fig_hist.update_layout(title='BiLSTM Training History',
 fig_hist.show()
 ```
 
-![4CTRAININGCURVES](4CTRAININGCURVES.png)
+![4CTRAININGCURVES](OUTPUTS/4CTRAININGCURVES.png)
 
 ---
 ## SECTION 5 — Data Quality: Isolation Forest Anomaly Detection
@@ -397,7 +397,7 @@ fig_dq = px.scatter(df_dq, x='baseline_bmi', y='weight_loss_pct',
 fig_dq.update_layout(template='plotly_white', height=420)
 fig_dq.show()
 ```
-![5FOREST](5FOREST.png)
+![5FOREST](OUTPUTS/5FOREST.png)
 
 ---
 ## SECTION 6 — Executive KPI Dashboard
@@ -470,9 +470,9 @@ fig.update_layout(
 fig.show()
 ```
 
-![6DASH1](6DASH1.png)
+![6DASH1](OUTPUTS/6DASH1.png)
 
-![6DASH2](6DASH2.png)
+![6DASH2](OUTPUTS/6DASH2.png)
 
 ---
 ## SECTION 7 — Summary & Key Findings
