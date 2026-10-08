@@ -200,7 +200,6 @@ Random intercept by channel (DTC vs Enterprise).
 
 **Kaplan-Meier + Cox Proportional Hazards** model for member retention.
 
-
 ```python
 # 3A. LINEAR MIXED-EFFECTS MODEL (REML)
 df_model = df.copy()
@@ -222,7 +221,7 @@ for name, coef, pval in zip(lme.params.index, lme.params.values, lme.pvalues.val
     print(f'  {name:32s}  beta={coef:+.4f}  p={pval:.4f} {sig}')
 print(f'\n  AIC: {lme.aic:.1f} | Log-Likelihood: {lme.llf:.1f}')
 ```
-
+![3AMIXED-EFFECTS](OUTPUTS/3AMIXED-EFFECTS.png)
 
 ```python
 # 3B. KAPLAN-MEIER RETENTION + COX PH
@@ -257,6 +256,11 @@ cph.fit(cox_df, duration_col='months_active', event_col='churned')
 print('Cox PH: Hazard Ratios for Churn')
 cph.print_summary()
 ```
+![3BKaplanMeyer](OUTPUTS/3BKaplanMeyer.png)
+
+![3BKaplanMeyer](OUTPUTS/3BKaplanMeyer1.png)
+
+![3BKaplanMeyer](OUTPUTS/3BKaplanMeyer2.png)
 
 ---
 ## SECTION 4 — Churn Prediction: Bidirectional LSTM
